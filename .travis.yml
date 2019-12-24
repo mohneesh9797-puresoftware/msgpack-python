@@ -3,8 +3,8 @@ dist: xenial
 language: python
 cache: pip
 arch:
-   - arm64
    - amd64
+   - arm64
 python:
   # Available Python (PyPy) can be listed by:
   #
