@@ -31,7 +31,7 @@ matrix:
       services:
         - docker
       env:
-        - DOCKER_IMAGE=quay.io/pypa/manylinux1_i686
+        - DOCKER_IMAGE=quay.io/pypa/manylinux1_aarch64
       install:
         - pip install -U pip
         - pip install -r requirements.txt
